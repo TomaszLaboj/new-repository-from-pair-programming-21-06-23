@@ -9,7 +9,7 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "yarn test --watchAll",
     "format": "yarn prettier --write ./src/",
-    "format:check": "yarn prettier --check ./src/"
+    "format:check": "yarn prettier --check ./src/",
     "lint":  "yarn eslint ./src/"
   },
   "devDependencies": {
