@@ -12,3 +12,6 @@ test("returns average of -5 and 5", () => {
 test("returns average of empty array", () => {
   expect(calucalateAverage([])).toBe(NaN);
 });
+test("returns average of empty array", () => {
+  expect(calucalateAverage([0, 100])).toBe(50);
+});
