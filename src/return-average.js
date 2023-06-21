@@ -9,9 +9,7 @@ it takes an array of numbers
 returns average of all the numbers  
 */
 
-function calucalateAverage(array){
-
-    return array.reduce((acc,curr) => acc+curr,0 )/array.length;
-
+function calucalateAverage(array) {
+  return array.reduce((acc, curr) => acc + curr, 0) / array.length;
 }
-export {calucalateAverage};
+export { calucalateAverage };
